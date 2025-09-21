@@ -4,14 +4,6 @@
     "label": "",
     "image": "",
     "email": "marenwehrheim@gmail.com",
-    // "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
-    // "location": {
-    //   "address": "2712 Broadway St",
-    //   "postalCode": "CA 94115",
-    //   "city": "San Francisco",
-    //   "countryCode": "US",
-    //   "region": "California"
-    // },
     "profiles": [
       {
         "network": "Twitter",
@@ -20,25 +12,19 @@
       }
     ]
   },
-  
 
   "work": [
     {
       "name": "York University, Toronto, Canada",
       "position": "Postdoctoral Researcher",
-      // "url": "https://example.com",
       "startDate": "July 2025",
-      // "endDate": "1955-01-01",
       "summary": "Modeling the role of the prefrontal cortex in category learning in neurotypical and atypically developing brains.",
       "highlights": []
     },
     {
       "name": "Mila - Quebec AI Institute Montreal, Canada",
       "position": "Visiting Researcher",
-      // "url": "https://example.com",
       "startDate": "Sep 2024",
-      // "endDate": "1955-01-01",
-      // "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
       "highlights": []
     }
   ],
@@ -46,13 +32,9 @@
   "education": [
     {
       "institution": "Goethe University Frankfurt & Frankfurt Institute for Advanced Studies (FIAS)",
-      // "location": "Frankfurt, Germany",
-      // "url": "https://www.uzh.ch/",
-      // "area": "",
       "studyType": "PhD in Computational Neuroscience",
       "startDate": "2020",
       "endDate": "2025",
-      // "score": "10",
       "courses": []
     }, 
     {
@@ -70,40 +52,65 @@
       "courses": []
     }
   ],
-  // "volunteer": [
-  //   {
-  //     "organization": "People's Climate March",
-  //     "location": "Zurich, Switzerland",
-  //     "position": "Lead Organizer",
-  //     "url": "https://example.com",
-  //     "startDate": "2014-04-01",
-  //     "endDate": "2015-07-01",
-  //     "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-  //     "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-  //   }
-  // ],
   
 "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+    { "releaseDate": "2025",
+      "papers": [
+        { "name": "Denoising diffusion models for high-resolution microscopy image restoration",
+        "publisher": "IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)",
+        "authors": "Osuna-Vargas, P., <b>Wehrheim, M.</b>, Zinz, L., Rahm, J., Balakrishnan, A., Kaminer, A., Heilemann, M. & Kaschube, M.",
+        "url": "https://openaccess.thecvf.com/content/WACV2025/papers/Osuna-Vargas_Denoising_Diffusion_Models_for_High-Resolution_Microscopy_Image_Restoration_WACV_2025_paper.pdf",
+        "pages": "(pp. 4320-4330). IEEE"
+      }
+      ]
     },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
+    { "releaseDate": "2024",
+      "papers": [
+      { "name": "Reliability of variability and complexity measures for task and task-free BOLD fMRI",
+      "authors": "<b>Wehrheim, M.</b>, Faskowitz, J., Schubert, A.-L., & Fiebach, C. J.",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/hbm.26778",
+      "publisher": "Human Brain Mapping",
+      "pages": "45(10), e26778"
     },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+
+    { "name": "Linking in Style: Understanding learned features in deep learning models",
+      "authors": "<b>Wehrheim, M.</b>, Osuna-Vargas, P., & Kaschube, M.",
+      "url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/11380.pdf",
+      "publisher": "European Conference on Computer Vision (ECCV)",
+      "pages": "Springer Nature Switzerland, Cham, pp.162-180"
+    },
+
+    { "name": "Fast and Long-Term Super-Resolution Imaging of Endoplasmic Reticulum Nano-structural Dynamics in Living Cells Using a Neural Network",
+      "authors": "Rahm, J. V., Balakrishnan, A., <b>Wehrheim, M.</b>, Kaminer, A., Glogger, M., Kessler, L. F., Kaschube, M., Barth, H.-D., & Heilemann, M.",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/smsc.202400385",
+      "publisher": "Small Science",
+      "pages": "2400385"
+    }
+
+      ]
+    },
+    { "releaseDate": "2023",
+      "papers": [
+        { "name": "Few temporally distributed brain connectivity states predict human cognitive abilities",
+        "authors": "<b>Wehrheim, M.</b>, Faskowitz, J., Sporns, O., Fiebach, C. J., Kaschube, M., & Hilger, K.",
+        "url": "https://www.sciencedirect.com/science/article/pii/S105381192300397X",
+        "publisher": "NeuroImage",
+        "pages": "277, 120246"
+      }
+      ]
+    }
+  ],
+
+"workingpapers": [
+    { "releaseDate": "2025",
+      "papers": [
+        { "name": "Denoising diffusion models for high-resolution microscopy image restoration",
+        "publisher": "IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)",
+        "authors": "Osuna-Vargas, P., <b>Wehrheim, M.</b>, Zinz, L., Rahm, J., Balakrishnan, A., Kaminer, A., Heilemann, M. & Kaschube, M.",
+        "url": "https://openaccess.thecvf.com/content/WACV2025/papers/Osuna-Vargas_Denoising_Diffusion_Models_for_High-Resolution_Microscopy_Image_Restoration_WACV_2025_paper.pdf",
+        "pages": "(pp. 4320-4330). IEEE"
+      }
+      ]
     }
   ],
 
@@ -117,50 +124,6 @@
       "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
     }
   ],
-  // "certificates": [
-  //   {
-  //     "name": "Machine Learning",
-  //     "date": "2018-01-01",
-  //     "issuer": "Stanford University",
-  //     "url": "https://example.com",
-  //     "icon": "fa-solid fa-location-dot"
-  //   },
-  //   {
-  //     "name": "Quantum Computing",
-  //     "date": "2018-01-01",
-  //     "issuer": "Stanford University",
-  //     "url": "https://example.com",
-  //     "icon": "fa-solid fa-tag"
-  //   },
-  //   {
-  //     "name": "Quantum Information",
-  //     "date": "2018-01-01",
-  //     "issuer": "Stanford University",
-  //     "url": "https://example.com",
-  //     "icon": "fa-solid fa-envelope"
-  //   },
-  //   {
-  //     "name": "Quantum Cryptography",
-  //     "date": "2018-01-01",
-  //     "issuer": "Stanford University",
-  //     "url": "https://example.com",
-  //     "icon": "fa-solid fa-hashtag"
-  //   },
-  //   {
-  //     "name": "Quantum Communication",
-  //     "date": "2018-01-01",
-  //     "issuer": "Stanford University",
-  //     "url": "https://example.com",
-  //     "icon": "fa-solid fa-calendar"
-  //   },
-  //   {
-  //     "name": "Quantum Teleportation",
-  //     "date": "2018-01-01",
-  //     "issuer": "Stanford University",
-  //     "url": "https://example.com",
-  //     "icon": "fa-solid fa-clipboard-check"
-  //   }
-  // ],
   
   "skills": [
     {

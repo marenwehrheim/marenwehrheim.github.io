@@ -102,6 +102,8 @@ layout: default
                 {% assign section_title = 'Skills' %}
               {% when 'projects' %}
                 {% assign section_title = 'Projects' %}
+              {% when 'workingpapers' %}
+                {% assign section_title = 'Working papers' %}
               {% when 'languages' %}
                 {% assign section_title = 'Languages' %}
               {% when 'interests' %}
@@ -130,6 +132,8 @@ layout: default
                   {% include resume/skills.liquid %}
                 {% when 'publications' %}
                   {% include resume/publications.liquid %}
+                {% when 'workingpapers' %}
+                  {% include resume/workingpapers.liquid %}
                 {% when 'languages' %}
                   {% include resume/languages.liquid %}
                 {% when 'interests' %}
