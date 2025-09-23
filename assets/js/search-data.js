@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-cv",
           title: "cv",
-          description: "I am a Postdoctoral researcher with a strong interest in   applying deep learning to model cognitive and perceptual processes in the brain  . My work focuses on investigating neural functions associated with  perceptual and cognitive features , how  geometric properties  .of brains and artificial neural networks change along the visual processing hierarchy, and how the  prefrontal cortex shapes perception. By combining experimental data analysis, geometric measures, and computational modeling, I aim to uncover core organizing principles of brain computation.",
+          description: "I am a Postdoctoral researcher with a strong interest in   applying deep learning to model cognitive and perceptual processes in the brain  . My work focuses on investigating neural functions associated with  perceptual and cognitive features , how  geometric properties   of brains and artificial neural networks change along the visual processing hierarchy, and how the  prefrontal cortex shapes perception. By combining experimental data analysis, geometric measures, and computational modeling, I aim to uncover core organizing principles of brain computation.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
