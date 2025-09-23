@@ -145,11 +145,11 @@ newsletter:
 
 collections:
   books:
-    output: true
+    output: false  # true
   news:
     defaults:
       layout: post
-    output: true
+    output: fales # true
   projects:
     output: true
 
@@ -635,10 +635,12 @@ jsonresume:
   - education
   - publications
   - projects
-  - volunteer
+  - workingpapers
   - awards
   - certificates
   - skills
   - languages
   - interests
   - references
+  - teaching
+  - funding

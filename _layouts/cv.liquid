@@ -102,14 +102,14 @@ layout: default
                 {% assign section_title = 'Skills' %}
               {% when 'projects' %}
                 {% assign section_title = 'Projects' %}
-              {% when 'workingpapers' %}
-                {% assign section_title = 'Working papers' %}
               {% when 'languages' %}
                 {% assign section_title = 'Languages' %}
               {% when 'interests' %}
                 {% assign section_title = 'Interests' %}
               {% when 'references' %}
                 {% assign section_title = 'References' %}
+              {% when 'workingpapers' %}
+                {% assign section_title = 'Working papers' %}
               {% else %}
                 {% assign section_title = data[0] | capitalize %}
             {% endcase %}
@@ -122,8 +122,12 @@ layout: default
                   {% include resume/education.liquid %}
                 {% when 'work' %}
                   {% include resume/work.liquid %}
-                {% when 'volunteer' %}
-                  {% include resume/volunteer.liquid %}
+                {% when 'workingpapers' %}
+                  {% include resume/workingpapers.liquid %}
+                {% when 'teaching' %}
+                  {% include resume/teaching.liquid %}
+                {% when 'funding' %}
+                  {% include resume/funding.liquid %}
                 {% when 'projects' %}
                   {% include resume/projects.liquid %}
                 {% when 'awards' %}
@@ -132,8 +136,6 @@ layout: default
                   {% include resume/skills.liquid %}
                 {% when 'publications' %}
                   {% include resume/publications.liquid %}
-                {% when 'workingpapers' %}
-                  {% include resume/workingpapers.liquid %}
                 {% when 'languages' %}
                   {% include resume/languages.liquid %}
                 {% when 'interests' %}
